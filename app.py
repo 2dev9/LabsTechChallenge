@@ -8,7 +8,7 @@ def main():
     return render_template('index.html')
 
 @app.route('/dah2184', methods=['GET'])
-def main():
+def dah2184():
     return render_template('dah2184.html')
 
 if __name__ == '__main__':

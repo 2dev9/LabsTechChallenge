@@ -3,6 +3,12 @@ body {
 	text-align: center;
 }
 
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 h1,h2, header, footer {
     color: #333333;
     font-family: 'Varela Round', sans-serif;
@@ -23,7 +29,6 @@ table{
 
 p, h3, table {
 	color: white;
-	
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -38,10 +43,7 @@ td{
 
 i {
 	padding: 20px;
-}
-
-a:hover {
-    color: #333333;
+	color: #800020;
 }
 
 #intro img{
@@ -52,6 +54,10 @@ a:hover {
 #intro{
 	border-color: #E9EBF1;
 	background-color: #E9EBF1;
+}
+
+i:hover, h3:hover {
+    color: #333333;
 }
 
 
